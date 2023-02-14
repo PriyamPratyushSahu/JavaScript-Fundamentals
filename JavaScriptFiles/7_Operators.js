@@ -38,3 +38,7 @@ console.log(`A || C -> ${A && C}`) //A || C -> false
 //NOT OPERATOR(!)
 console.log(`!A -> ${!A}`) //!A -> false
 console.log(`!C -> ${!C}`) //!C -> true
+
+//TERNARY OPERATOR
+console.log(`(A && C)? A : C -> ${(A && C) ? A : C}`) //(A && C)? A : C -> false
+console.log(`(A || C)? A : C -> ${(A || C)? A : C}`) //(A || C)? A : C -> true
