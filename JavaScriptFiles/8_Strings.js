@@ -1,61 +1,94 @@
-const firstName = 'William';
-const lastName = 'Johnson';
-const age = 36;
-const str = 'Hello there my name is Brad';
-const tags = 'web design,web development,programming';
+const firstName = 'Priyam';
+const lastName = 'Sahu';
 
+const str = 'Welcome to JavaScript';
+const tags = 'web development,programming';
 let val;
 
-val = firstName + lastName;
+console.log(firstName + lastName); //PriyamSahu
 
 // Concatenation
-val = firstName + ' ' + lastName;
+console.log(firstName + ' ' + lastName); //Priyam Sahu
 
 // Append
-val = 'Brad ';
-val += 'Traversy';
+val = 'Hi ';
+val += 'There';
+console.log(val); //Hi There
 
-val = 'Hello, my name is ' + firstName + ' and I am ' + age;
+console.log('Hello, my name is ' + firstName); //Hello, my name is Priyam
 
 // Escaping
-val =  'That\'s awesome, I can\'t wait';
+console.log( 'That\'s awesome, I can\'t wait'); //That's awesome, I can't wait
 
 // Length
-val = firstName.length;
+console.log(firstName.length); //6
 
 // concat()
-val = firstName.concat(' ', lastName);
+console.log(firstName.concat(' ', lastName)); //Priyam Sahu
 
 // Change case
-val = firstName.toUpperCase();
-val = firstName.toLowerCase();
+console.log(firstName.toUpperCase()); //PRIYAM
+console.log(firstName.toLowerCase()); //priyam
 
-val = firstName[2];
+console.log(firstName[2]); //i
 
 // indexOf()
-val = firstName.indexOf('l');
-val = firstName.lastIndexOf('l');
+console.log(firstName.indexOf('i')); // 2
+console.log(firstName.lastIndexOf('m')); // 5
 
 // charAt()
-val = firstName.charAt('2');
+console.log(firstName.charAt('4')); //a
 // Get last char
-val = firstName.charAt(firstName.length - 1);
+console.log(firstName.charAt(firstName.length - 1)); // m
 
 // substring()
-val = firstName.substring(0, 4);
+console.log(firstName.substring(0, 4)); //Priy
 
 // slice()
-val = firstName.slice(0,4);
-val = firstName.slice(-3);
+console.log(firstName.slice(0,4)); //Priy
+console.log(firstName.slice(-3)); //yam
 
 // split()
-val = str.split(' ');
-val = tags.split(',');
+console.log(str.split(' ')); // ['Welcome', 'to', 'JavaScript']
+console.log(tags.split(',')); //['web development', 'programming']
 
 // replace()
-val = str.replace('Brad', 'Jack');
+console.log(str.replace('JavaScript', 'Web')); //Welcome to Web
 
 // includes()
-val = str.includes('foo');
+console.log(str.includes('to')); //true
 
-console.log(val);
+const name = 'John';
+const job = 'Web Developer';
+const age = 23;
+const city = 'Miami';
+let html;
+
+function hello(){
+  return 'hello';
+}
+
+// With template strings (es6)
+html = `
+  <ul>
+    <li>Name: ${name}</li>
+    <li>Age: ${age}</li>
+    <li>Job: ${job}</li>
+    <li>City: ${city}</li>
+    <li>${2 + 2}</li>
+    <li>${hello()}</li>
+    <li>${age > 30 ? 'Over 30' : 'Under 30'}</li>
+  </ul>
+`;
+
+/*
+Name: John
+Age: 23
+Job: Web Developer
+City: Miami
+4
+hello
+Under 30
+*/
+
+document.body.innerHTML = html;
