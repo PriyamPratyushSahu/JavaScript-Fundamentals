@@ -1,3 +1,9 @@
+/*
+1. Primitive Datatype
+2. Reference Types - Objects
+3. Dynamically Typed
+*/
+
 //Primitive Datatype
 
 //String

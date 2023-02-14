@@ -1,3 +1,12 @@
+/*
+1. Number to string
+    //Type 1 String Conversion: String()
+    //Type 2 String Conversion: .toString()
+//2. String to Number
+    //Type 1 Numeric Conversion: Number()
+    //Type 2 Numeric Conversion: parseInt(),parseFloat()
+*/
+
 let val;
 
 //1. Number to string
@@ -10,7 +19,7 @@ val = String(5)
 console.log(val) //5
 console.log(typeof (val)) //string
 
-//2. Date to String
+// Date to String
 val = String(new Date())
 console.log(val) // Mon Feb 13 2023 10:27:30 GMT+0530 (India Standard Time)
 console.log(typeof (val)) //string
@@ -23,6 +32,7 @@ console.log(typeof (val)) //string
 val = (5).toString(); // also works with (5).toString
 console.log(val) // 5
 console.log(typeof (val)) //string
+
 
 //2. String to Number
 //Type 1 Numeric Conversion: Number()
