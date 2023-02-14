@@ -2,10 +2,11 @@
 2. Variables 
 3. Datatypes
 4. Type Conversion
-5. Numbers
-6. Operators
-7. Strings
-8. Object Literals
-9. If Else
-10. Switch Case
-11. Functions
+5. Type Coercion
+6. Numbers
+7. Operators
+8. Strings
+9. Object Literals
+10. If Else
+11. Switch Case
+12. Functions
