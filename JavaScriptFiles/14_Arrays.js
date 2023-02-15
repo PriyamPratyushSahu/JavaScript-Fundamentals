@@ -1,3 +1,22 @@
+/*
+1. Create some arrays
+    Type 1
+    Type 2
+2. Array of strings
+3. Array of mixed data
+4. Array Methods
+5. MUTATING ARRAYS
+    Add on to end
+    Add on to front
+    Take off from end
+    Take off from front
+    Splice values
+    Reverse
+    Concatenate array
+    Sorting arrays
+6. Question : Multiply each element by 5
+ */
+
 // Create some arrays
 //Type 1
 const numbers = [43, 56, 33, 23, 44, 36, 5]; 
