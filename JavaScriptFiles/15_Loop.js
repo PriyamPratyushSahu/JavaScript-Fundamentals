@@ -150,3 +150,16 @@ firstName : John
 lastName : Doe
 age : 40
 */
+let dice = Math.trunc(Math.random() * 6) ;
+
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) console.log('Loop is about to end...'); 
+}
+/*
+You rolled a 4
+15_Loop.js:156 You rolled a 3
+15_Loop.js:156 You rolled a 4
+15_Loop.js:158 Loop is about to end...
+ */
