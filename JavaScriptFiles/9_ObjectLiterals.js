@@ -27,13 +27,30 @@ getBirthYear: ƒ ()
 */
 
   // Get specific value
-  console.log(person.firstName); //Priyam
+console.log(person.firstName); //Priyam
+
+//console.log(person['firstName']);
+//Works same as above
+   
   console.log(person['lastName']); //Sahu
-  console.log(person.age); //23
-  console.log(person.hobbies[1]); //reading
-  console.log(person.address.state); //Bangalore
-  console.log(person.address['city']); //Bhubaneswar
-  console.log(person.getBirthYear()); // 2000
+console.log(person.age); //23
+
+//console.log(person['age'])
+//Works same as above
+console.log(person.hobbies[1]); //reading
+
+//console.log(person['hobbies'][1]);
+//Works same as above
+console.log(person.address.state); //Bangalore
+
+//console.log(person['address'].state);
+//Works same as above
+console.log(person.address['city']); //Bhubaneswar
+
+//console.log(person['address'].city);
+//Works same as above
+
+console.log(person.getBirthYear()); // 2000
   
   const people = [
     {name: 'John', age: 30},
