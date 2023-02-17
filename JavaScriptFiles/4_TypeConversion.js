@@ -49,3 +49,9 @@ console.log(parseInt('5')); //5
 console.log(typeof (parseInt('5'))); //number
 console.log(parseFloat('10.3')); //10.3
 console.log(typeof (parseFloat('10.3'))); //number
+
+//Type 3 Using + sybmbol
+val = '22';
+console.log(typeof val) //string
+val = +val
+console.log(typeof val) //number
