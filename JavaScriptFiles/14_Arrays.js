@@ -158,3 +158,54 @@ for (let i = 0; i < numArr.length; i++)
     newNumArr.push(MulBy5(numArr[i]))
 
 console.log(newNumArr) // [5, 10, 15, 20, 25]
+
+// 2D Array;
+
+var StudentRecord = []; //1D Array, it will keep record in each index
+
+//Student 1
+StudentRecord[0] = [1, "Abhishek", 8, 'A'];
+StudentRecord[1] = [2, "Aditya", 8, 'C'];
+StudentRecord[2] = [3, "Ananya", 8, 'B'];
+StudentRecord[3] = [4, "Binayak", 8, 'B'];
+StudentRecord[4] = [5, "Chetan", 8, 'A'];
+console.log("Students Details: ");
+for (var i = 0; i < StudentRecord.length; i++){
+    console.log(`Roll no: ${StudentRecord[i][0]}`);
+    console.log(`Name: ${StudentRecord[i][1]}`);
+    console.log(`Class: ${StudentRecord[i][2]}`);
+    console.log(`Section: ${StudentRecord[i][3]}`);
+    console.log('*****************\n');
+}
+/*
+Students Details: 
+Roll no: 1
+Name: Abhishek
+Class: 8
+Section: A
+*****************
+
+Roll no: 2
+Name: Aditya
+Class: 8
+Section: C
+*****************
+
+Roll no: 3
+Name: Ananya
+Class: 8
+Section: B
+*****************
+
+Roll no: 4
+Name: Binayak
+Class: 8
+Section: B
+*****************
+
+Roll no: 5
+Name: Chetan
+Class: 8
+Section: A
+*****************
+ */
