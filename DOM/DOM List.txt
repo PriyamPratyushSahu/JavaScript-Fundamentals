@@ -1,0 +1,14 @@
+1. Console
+2. Variables 
+3. Datatypes
+4. Type Conversion
+5. Type Coercion
+6. Numbers
+7. Operators
+8. Strings
+9. Object Literals
+10. If Else
+11. Switch Case
+12. Functions
+13. Date and Time
+14. Arrays
