@@ -1,3 +1,4 @@
 1. Document Objects
 2. DOM for Single Elements
 3. DOM for Multiple Elements
+4. Traversing DOM
