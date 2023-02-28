@@ -73,18 +73,29 @@ console.log(link.classList[2]); //test
 console.log(link.classList.length); //3
 link.classList.remove('test');
 console.log(link.classList.length); //3
-console.log(link); //a.delete-item.secondary-content
+console.log(link); /*
+<a href="#" class="delete-item secondary-content">/<i class="fa fa-remove"></i></a> 
+*/
 
 // Attributes
 console.log(link.getAttribute('href')); //#
+
+//Change attribute value
 link.setAttribute('href', 'http://google.com');
 
-//To verify does it has attribute
+//To verify does it has href attribute 
 console.log(link.hasAttribute('href')); //true
-// link.setAttribute('title', 'Google');
-// console.log(link.hasAttribute('title');
-// link.removeAttribute('title');
-// console.log(link;
+//Set Title
+link.setAttribute('title', 'Google');
+console.log(link);/*
+<a href="http://google.com" class="delete-item secondary-content" title="Google"><i class="fa fa-remove"></i></a>
+ */
+//To verify does it has title attribute
+ console.log(link.hasAttribute('title')); //true
+link.removeAttribute('title');
 
-// //console.log(val);
+console.log(link.hasAttribute('title')); //false
 
+console.log(link);/*
+<a href="http://google.com" class="delete-item secondary-content"><i class="fa fa-remove"></i></a>
+ */
