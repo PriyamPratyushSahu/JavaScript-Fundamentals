@@ -4,3 +4,4 @@
 4. Traversing DOM
 5. Creating Elements
 6. Removing and Replacing Elements
+7. Event Listeners and The Event Object
