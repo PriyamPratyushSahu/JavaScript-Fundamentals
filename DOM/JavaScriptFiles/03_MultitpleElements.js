@@ -19,7 +19,7 @@ console.log(lis[0]); //li.collection-item
 lis[1].style.color = 'blue';
 lis[1].textContent = 'Hello World';
 
-// // Conver HTML Collection into array
+// // Convert HTML Collection into array
 lis = Array.from(lis);
 console.log(lis); //[li.collection-item, li.collection-item, li.collection-item, li.collection-item, li.collection-item]
 lis.reverse();
@@ -49,4 +49,4 @@ for(let i = 0; i < liEven.length; i++){
 }
 
 
-console.log(items);
+console.log(items );

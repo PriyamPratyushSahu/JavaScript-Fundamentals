@@ -3,3 +3,4 @@
 3. DOM for Multiple Elements
 4. Traversing DOM
 5. Creating Elements
+6. Removing and Replacing Elements
