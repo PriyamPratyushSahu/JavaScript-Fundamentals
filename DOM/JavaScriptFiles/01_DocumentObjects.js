@@ -17,54 +17,32 @@ console.log(document.contentType); //text/html
 console.log(document.forms);
 /*
 HTMLCollection [form#task-form, task-form: form#task-form]
-0
-: 
-form#task-form
-task-form
-: 
-form#task-form
-length
-: 
-1
-[[Prototype]]
-: 
-HTMLCollection
+0:form#task-form
+task-form:form#task-form
+length: 1
+[[Prototype]]: HTMLCollection
  */
 console.log(document.forms[0]); //form#task-form
 console.log(document.forms[0].id); //task-form
 console.log(document.forms[0].method); //get
 
 console.log(document.forms[0].action); //http://127.0.0.1:5501/DOM/HTMLFiles/index.php
-
+console.log(12121211);
 console.log(document.links);
 /*
 HTMLCollection(6) [a.delete-item.secondary-content, a.delete-item.secondary-content, a.delete-item.secondary-content, a.delete-item.secondary-content, a.delete-item.secondary-content, a.clear-tasks.btn.black]
-0
-: 
-a.delete-item.secondary-content
-1
-: 
-a.delete-item.secondary-content
-2
-: 
-a.delete-item.secondary-content
-3
-: 
-a.delete-item.secondary-content
-4
-: 
-a.delete-item.secondary-content
-5
-: 
-a.clear-tasks.btn.black
-length
-: 
-6
-[[Prototype]]
-: 
-HTMLCollection
+0: a.delete-item.secondary-content
+1: a.delete-item.secondary-content
+2: a.delete-item.secondary-content
+3: a.delete-item.secondary-content
+4: a.delete-item.secondary-content
+5: a.clear-tasks.btn.black
+length: 6
+[[Prototype]]: HTMLCollection
  */
-console.log(document.links[0]); //a.delete-item.secondary-content
+console.log(document.links[0]); /*
+ <a href="#" class="delete-item secondary-content"><i class="fa fa-remove"></i></a > 
+  */
 console.log(document.links[0].id); //<a href = "#"> ... </a>
 console.log(document.links[0].className); //delete-item secondary-content
 console.log(document.links[0].classList[0]); //delete-item
