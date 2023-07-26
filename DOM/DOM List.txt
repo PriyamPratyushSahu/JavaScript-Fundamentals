@@ -1,0 +1,7 @@
+1. Document Objects
+2. DOM for Single Elements
+3. DOM for Multiple Elements
+4. Traversing DOM
+5. Creating Elements
+6. Removing and Replacing Elements
+7. Event Listeners and The Event Object
