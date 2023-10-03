@@ -1,3 +1,6 @@
+This is a part of an Udemy Course named: The Complete JavaScript Course 2023: From Zero to Expert!
+Created by Jonas Schmedtmann
+
 1. Console
 2. Variables 
 3. Datatypes
